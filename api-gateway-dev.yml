@@ -2,7 +2,7 @@ zuul:
   routes:
     # 普通写法
     myProduct:
-      path: /myProduct/**
+      path: /myProduct0/**
       serviceId: product
       setSensitiveHeaders:
     # 简介写法
