@@ -1,0 +1,16 @@
+zuul:
+  routes:
+    # 普通写法
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      setSensitiveHeaders:
+    # 简介写法
+#    product: /myProduct/**
+  ignored-patterns:
+    - /**/product/listForOrder
+management:
+  endpoints:
+    web:
+      exposure:
+        include: routes
