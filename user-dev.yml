@@ -4,6 +4,8 @@ spring:
     username: root
     password: 1234
     url: jdbc:mysql://localhost:3306/cloud_sell?useSSL=false
+  jpa:
+    show-sql: true
   rabbitmq:
     host: localhost
     port: 5672
