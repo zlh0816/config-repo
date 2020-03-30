@@ -19,4 +19,4 @@ PRODUCT:
     NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
 env: 
-  dev22
+  dev22123
