@@ -19,4 +19,4 @@ PRODUCT:
     NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
 env: 
-  test12
+  test12test
